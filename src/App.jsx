@@ -8,6 +8,8 @@ import Chart from "./components/Chart";
 import RightFlag from "./components/RightFlag";
 import TopCoins from "./components/TopCoins";
 import Performance from "./components/Performance";
+import Sentiment from "./components/Sentiment";
+import About from "./components/About";
 function App() {
    const [active, setActive] = useState("Overview");
 
@@ -115,6 +117,8 @@ function App() {
                         </ul>
                      </div>
                      <Performance />
+                     <Sentiment />
+                     <About />
                   </div>
                   {/* Right */}
                   <div className='w-full lg:w-[34%]  '>

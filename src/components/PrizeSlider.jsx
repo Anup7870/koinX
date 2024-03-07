@@ -13,7 +13,9 @@ export default function Performance({ percentage, prize }) {
                   <div
                      className={`absolute -top-[1px] `}
                      style={{ left: `${percentage}%` }}>
-                     <GoTriangleUp />${prize}
+                     <div className='text-sm  flex flex-col items-center text-[#44475B]'>
+                        <GoTriangleUp />${prize}
+                     </div>
                   </div>
                )}
             </div>

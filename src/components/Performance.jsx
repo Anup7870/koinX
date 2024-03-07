@@ -3,22 +3,26 @@ import PrizeSlider from "./PrizeSlider";
 import { IoMdInformationCircle } from "react-icons/io";
 export default function Performance() {
    return (
-      <div className='w-full bg-[#ffff] p-8 rounded-lg mt-6 '>
+      <div className='w-full bg-[#ffff] lg:p-8 p-6 rounded-lg mt-6 '>
          <h1 className='font-semibold text-xl'>Performance</h1>
          <div className='mt-8'>
             <div className='flex w-full justify-between items-center'>
                <div className='pr-5'>
-                  <p className='whitespace-nowrap font-regular text-md text-[#44475B]'>
+                  <p className='whitespace-nowrap font-regular text-sm  lg:text-md text-[#44475B]'>
                      Today's Low
                   </p>
-                  <p className='pt-3'>46,930.22</p>
+                  <p className='pt-3 text-sm lg:text-base text-[#44475B]'>
+                     46,930.22
+                  </p>
                </div>
                <PrizeSlider percentage={74} prize={"24546656"} />
                <div className='pl-5'>
-                  <p className='whitespace-nowrap font-regular text-md text-[#44475B]'>
+                  <p className='whitespace-nowrap font-regular text-sm  lg:text-md text-[#44475B]'>
                      Today's High
                   </p>
-                  <p className='pt-3'>49,343.83</p>
+                  <p className='pt-3 text-sm lg:text-base text-[#44475B]'>
+                     49,343.83
+                  </p>
                </div>
             </div>
             <div></div>
@@ -26,17 +30,21 @@ export default function Performance() {
          <div className='mt-8'>
             <div className='flex w-full justify-between items-center'>
                <div className='pr-5'>
-                  <p className='whitespace-nowrap font-regular text-md text-[#44475B]'>
+                  <p className='whitespace-nowrap  font-regular text-sm  lg:text-md text-[#44475B]'>
                      Today's Low
                   </p>
-                  <p className='pt-3'>46,930.22</p>
+                  <p className='pt-3 text-sm lg:text-base tezt-[#44475B]'>
+                     46,930.22
+                  </p>
                </div>
                <PrizeSlider percentage={0} prize={0} />
                <div className='pl-5'>
-                  <p className='whitespace-nowrap font-regular text-md text-[#44475B]'>
+                  <p className='whitespace-nowrap font-regular text-sm  lg:text-md text-[#44475B]'>
                      Today's High
                   </p>
-                  <p className='pt-3'>49,343.83</p>
+                  <p className='pt-3 text-sm lg:text-base text-[#44475B]'>
+                     49,343.83
+                  </p>
                </div>
             </div>
             <div className='text-[#44475B] mt-12 w-full'>
@@ -44,9 +52,9 @@ export default function Performance() {
                   Fundamental
                   <IoMdInformationCircle fill='gray' />
                </h1>
-               <div className='mt-4 flex justify-between w-full'>
+               <div className='mt-4 flex flex-col lg:flex-row justify-between w-full'>
                   {/* right side */}
-                  <div className='w-[45%]'>
+                  <div className='w-full lg:w-[45%]'>
                      <div className='border-b-2 border-gray-300 flex justify-between w-full h-[4rem] items-center'>
                         <p className='font-medium text-sm text-[#768396]'>
                            Bitcoin Prize
@@ -88,9 +96,9 @@ export default function Performance() {
                      </div>
                   </div>
                   {/* left side */}
-                  <div className='w-[45%]'>
+                  <div className='w-full lg:w-[45%]'>
                      <div className='border-b-2 border-gray-300 flex justify-between w-full h-[4rem] items-center'>
-                        <p className='font-medium text-sm text-[#768396]'>
+                        <p className='lg:font-medium font-sm text-sm text-[#768396]'>
                            Market Cap
                         </p>
                         <p className='text-[#111827] font-medium text-sm'>
@@ -105,7 +113,7 @@ export default function Performance() {
                            38.343%
                         </p>
                      </div>
-                     <div className='border-b-2 border-gray-300 flex justify-between w-full h-[4rem] items-cente'>
+                     <div className='border-b-2 border-gray-300 flex justify-between w-full h-[4rem] items-center'>
                         <p className='font-medium text-sm text-[#768396]'>
                            Volume / Market Cap
                         </p>
@@ -117,7 +125,7 @@ export default function Performance() {
                         <p className='font-medium text-sm text-[#768396]'>
                            All Time High
                         </p>
-                        <p className='text-[#111827] font-medium text-sm text-center '>
+                        <p className='text-[#111827] font-medium text-sm text-right '>
                            <p className='font-medium'>
                               $69,044.77{" "}
                               <span className='text-[#F7324C]'>-75.6%</span>
@@ -131,7 +139,7 @@ export default function Performance() {
                         <p className='font-medium text-sm text-[#768396]'>
                            All Time Low
                         </p>
-                        <p className='text-[#111827] font-medium text-sm text-center'>
+                        <p className='text-[#111827] font-medium text-sm text-right'>
                            <p className='font-medium'>
                               $67.81{" "}
                               <span className='text-[#0FBA83]'>24729.1%</span>
