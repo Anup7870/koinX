@@ -5,7 +5,7 @@ import { Button } from "flowbite-react";
 import { GoTriangleUp } from "react-icons/go";
 export default function Chart() {
    return (
-      <div className='w-full bg-[#DEDFE2] lg:bg-[#ffff] rounded-lg px-0 lg:px-7 '>
+      <div className='w-full bg-[#DEDFE2] lg:bg-[#ffff] rounded-lg px-0 lg:px-7 h-screen '>
          <div className='flex gap-10 py-4 items-center'>
             <div className='flex gap-2 items-center'>
                <img src={btc} alt='' />
