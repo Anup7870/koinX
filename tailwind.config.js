@@ -6,7 +6,13 @@ export default {
       "node_modules/flowbite-react/lib/esm/**/*.js",
    ],
    theme: {
-      extend: {},
+      extend: {
+         backgroundImage: {
+            "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+            "gradient-linear": "linear-gradient(var(--tw-gradient-stops))",
+            "gradient-conic": "conic-gradient(var(--tw-gradient-stops))",
+         },
+      },
    },
    plugins: [require("flowbite/plugin")],
 };

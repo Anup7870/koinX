@@ -19,8 +19,8 @@ export default function Chart() {
          <div className='pb-3'>
             <div className='flex gap-4 '>
                <p className='font-bold text-3xl'>$46,953.04</p>
-               <div className='flex gap-2'>
-                  <p className='font-medium flex  text-[#14B079] '>
+               <div className='flex gap-2 items-center'>
+                  <p className='font-medium flex  text-[#14B079]  bg-[#EBF9F4] px-1 item-center self-center justify-center rounded-md '>
                      <GoTriangleUp size={"1.3rem"} />
                      2.51%
                   </p>
@@ -29,7 +29,7 @@ export default function Chart() {
             </div>
             <p className='font-medium'> &#8377; 39,42,343</p>
          </div>
-         <TradingView />
+         <TradingView className='w-full h-full' />
       </div>
    );
 }
