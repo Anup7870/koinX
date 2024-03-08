@@ -51,9 +51,9 @@ export default function About() {
             <h1 className='font-semibold text-2xl mt-3'>
                Already Holding Bitcoin ?
             </h1>
-            <div className='mt-4 flex justify-between'>
+            <div className='mt-4 flex justify-between flex-col lg:flex-row gap-4 lg:gap-0 '>
                <div
-                  className='w-[48%] p-3 pl-3 rounded-lg flex gap-5'
+                  className=' w-full lg:w-[48%] p-3 pl-3 rounded-lg flex gap-5'
                   style={{
                      background:
                         "linear-gradient(135deg, rgba(121,241,164,1) 12%, rgba(14,92,173,1) 51%)",
@@ -70,7 +70,7 @@ export default function About() {
                   </div>
                </div>
                <div
-                  className='w-[48%] p-3  rounded-lg flex gap-6'
+                  className='w-full lg:w-[48%] p-3  rounded-lg flex gap-6'
                   style={{
                      background:
                         "linear-gradient(135deg, rgba(255,152,101,1) 12%, rgba(239,48,49,1) 51%)",
@@ -87,8 +87,8 @@ export default function About() {
                   </div>
                </div>
             </div>
-            <div className='my-5 w-full h-[1px] bg-gray-200'></div>
-            <p className='font-medium text-base'>
+            <div className='my-5 w-full h-[1px] bg-gray-200 hidden lg:block'></div>
+            <p className='font-medium text-base hidden lg:block'>
                Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam
                massa vel convallis duis ac. Mi adipiscing semper scelerisque
                porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia

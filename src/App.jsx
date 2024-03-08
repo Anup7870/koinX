@@ -11,6 +11,8 @@ import Performance from "./components/Performance";
 import Sentiment from "./components/Sentiment";
 import About from "./components/About";
 import Tokenomics from "./components/Tokenomics";
+import Team from "./components/Team";
+import Allcoins from "./components/Allcoins";
 function App() {
    const [active, setActive] = useState("Overview");
 
@@ -120,7 +122,9 @@ function App() {
                      <Performance />
                      <Sentiment />
                      <About />
-                     <Tokenomics />
+                     <Tokenomics className='' />
+                     <Team />
+                     <Allcoins />
                   </div>
                   {/* Right */}
                   <div className='w-full lg:w-[34%]  '>

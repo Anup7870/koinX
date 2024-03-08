@@ -56,7 +56,7 @@ export default function Tokenomics() {
    };
 
    return (
-      <div className='w-full bg-[#ffff] lg:p-8 p-6 rounded-lg mt-6 '>
+      <div className='w-full bg-[#ffff] lg:p-8 p-6 rounded-lg mt-6 lg:block hidden '>
          <h1 className='font-semibold text-2xl'>Tokenomics</h1>
          <h1 className='font-semibold text-xl mt-5'>Initial Distribution</h1>
          <div className='w-full flex items-center'>
@@ -74,7 +74,7 @@ export default function Tokenomics() {
                </div>
             </div>
          </div>
-         <p className='font-medium text-sm mt-4'>
+         <div className='font-medium text-sm mt-3 '>
             Lorem ipsum dolor sit amet consectetur. Cras aliquet tristique
             ornare vestibulum nunc dignissim vel consequat. Leo etiam nascetur
             bibendum amet enim sit eget leo amet. At metus orci augue fusce
@@ -84,7 +84,7 @@ export default function Tokenomics() {
             rutrum. Vel ipsum eget in at curabitur sem posuere facilisis vitae.
             Sed lorem sit mauris id eget arcu ut. Vulputate ipsum aliquet odio
             nisi eu ac risus.
-         </p>
+         </div>
       </div>
    );
 }
