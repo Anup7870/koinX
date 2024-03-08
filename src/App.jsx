@@ -10,6 +10,7 @@ import TopCoins from "./components/TopCoins";
 import Performance from "./components/Performance";
 import Sentiment from "./components/Sentiment";
 import About from "./components/About";
+import Tokenomics from "./components/Tokenomics";
 function App() {
    const [active, setActive] = useState("Overview");
 
@@ -119,6 +120,7 @@ function App() {
                      <Performance />
                      <Sentiment />
                      <About />
+                     <Tokenomics />
                   </div>
                   {/* Right */}
                   <div className='w-full lg:w-[34%]  '>

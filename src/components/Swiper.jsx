@@ -32,7 +32,7 @@ export default function App() {
             //    },
             // }}
             spaceBetween={160}
-            scrollbar={true}
+            scrollbar={false}
             navigation={true}
             // pagination={{
             //    clickable: true,
