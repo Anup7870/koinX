@@ -90,9 +90,17 @@ export default function Allcoins() {
                //  pagination={true}
                mousewheel={true}
                keyboard={true}
-               slidesPerView={width < 768 ? 2.5 : 5}
-               slidePrevClass={1}
-               //  spaceBetween={10}
+               // slidesPerView={1.5}
+               breakpoints={{
+                  // for biggerscreen
+                  1025: {
+                     slidesPerView: 5,
+                  },
+                  // for smaller screen
+                  768: {
+                     slidesPerView: 1.5,
+                  },
+               }}
                modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                className='mySwiper mt-10'>
                {allCoin &&
