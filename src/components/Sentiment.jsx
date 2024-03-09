@@ -6,7 +6,7 @@ import Swiper from "./Swiper";
 import { Progress } from "flowbite-react";
 export default function Sentiment() {
    return (
-      <div className='w-full bg-[#ffff] lg:p-8 p-6 rounded-lg mt-6 '>
+      <div className='w-full bg-[#ffff] md:p-8 p-6 rounded-lg mt-6 '>
          <h1 className='font-semibold text-2xl'>Sentiment</h1>
          <div className='text-[#44475B] mt-6 w-full'>
             <h1 className='font-semibold text-lg flex gap-1 items-center'>
@@ -22,7 +22,7 @@ export default function Sentiment() {
                <IoMdInformationCircle fill='gray' />
             </h1>
             <div className='w-full mt-2 flex flex-row items-center   gap-4'>
-               <div className='rounded-full w-[5rem] h-[5rem] lg:w-[8rem] lg:h-[8rem] bg-[#EBF9F4] flex justify-center items-center '>
+               <div className='rounded-full w-[5rem] h-[5rem] md:w-[8rem] md:h-[8rem] bg-[#EBF9F4] flex justify-center items-center '>
                   <span className='text-[#0FBA83] text-2xl'>76%</span>
                </div>
 

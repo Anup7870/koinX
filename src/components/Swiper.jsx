@@ -31,6 +31,7 @@ export default function App() {
             //       slidesPerGroup: 1,
             //    },
             // }}
+
             spaceBetween={160}
             scrollbar={false}
             navigation={true}

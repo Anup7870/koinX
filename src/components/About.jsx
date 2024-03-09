@@ -5,7 +5,7 @@ import divmob2 from "../assets/divmob2.png";
 import { GoArrowRight } from "react-icons/go";
 export default function About() {
    return (
-      <div className='w-full bg-[#ffff] lg:p-8 p-6 rounded-lg mt-6 '>
+      <div className='w-full bg-[#ffff] md:p-8 p-6 rounded-lg mt-6 '>
          <h1 className='font-semibold text-2xl'>About Bitcoin</h1>
          <div>
             <h1 className='font-bold text-lg mt-3'>What is Bitcoin</h1>
@@ -51,9 +51,9 @@ export default function About() {
             <h1 className='font-semibold text-2xl mt-3'>
                Already Holding Bitcoin ?
             </h1>
-            <div className='mt-4 flex justify-between flex-col lg:flex-row gap-4 lg:gap-0 '>
+            <div className='mt-4 flex justify-between flex-col md:flex-row gap-4 md:gap-0 '>
                <div
-                  className=' w-full lg:w-[48%] p-3 pl-3 rounded-lg flex gap-5'
+                  className=' w-full md:w-[48%] p-3 pl-3 rounded-lg flex gap-5'
                   style={{
                      background:
                         "linear-gradient(135deg, rgba(121,241,164,1) 12%, rgba(14,92,173,1) 51%)",
@@ -70,7 +70,7 @@ export default function About() {
                   </div>
                </div>
                <div
-                  className='w-full lg:w-[48%] p-3  rounded-lg flex gap-6'
+                  className='w-full md:w-[48%] p-3  rounded-lg flex gap-6'
                   style={{
                      background:
                         "linear-gradient(135deg, rgba(255,152,101,1) 12%, rgba(239,48,49,1) 51%)",
@@ -87,8 +87,8 @@ export default function About() {
                   </div>
                </div>
             </div>
-            <div className='my-5 w-full h-[1px] bg-gray-200 hidden lg:block'></div>
-            <p className='font-medium text-base hidden lg:block'>
+            <div className='my-5 w-full h-[1px] bg-gray-200 hidden md:block'></div>
+            <p className='font-medium text-base hidden md:block'>
                Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam
                massa vel convallis duis ac. Mi adipiscing semper scelerisque
                porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia

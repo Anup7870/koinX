@@ -4,11 +4,11 @@ import { Button } from "flowbite-react";
 import { GoArrowRight } from "react-icons/go";
 export default function RightFlag() {
    return (
-      <div className=' w-full bg-[#1F67FF]  rounded-xl text-center px-3 pb-7 flex flex-col  items-center  lg:p-10'>
+      <div className=' w-full bg-[#1F67FF]  rounded-xl text-center px-3 pb-7 flex flex-col  items-center  md:p-10'>
          <div className='flex flex-col items-center'>
             <img src={Frame} alt='' srcset='' className='md:order-1 mt-10' />
             <div className=' '>
-               <h1 className=' font-bold text-xl lg:text-2xl text-white px-0 lg:px-5'>
+               <h1 className=' font-bold text-xl md:text-2xl text-white px-0 md:px-5'>
                   Get statrted with KoinX for FREE
                </h1>
                <p className='text-sm mt-5 text-[#F2F2F2]'>
