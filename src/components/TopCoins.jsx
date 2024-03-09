@@ -18,7 +18,7 @@ export default function TopCoins() {
             });
       };
       fetchAllCoins();
-      console.log(allCoin.slice(0, 3));
+      // console.log(allCoin.slice(0, 3));
    }, []);
    return (
       <>
